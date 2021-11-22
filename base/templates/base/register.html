@@ -1,0 +1,10 @@
+{% extends "base/main.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <input class="btn btn-light" type="submit" value="Submit">
+</form>
+    <p class="question-link">Already Have An Account? <a class="question-link" href="{% url 'todo-login' %}">Login</a></p>
+{% endblock content %}

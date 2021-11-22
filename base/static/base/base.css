@@ -1,0 +1,36 @@
+body {
+    background-color: #E0E0E0;
+}
+
+a {
+    color: #ECEFF1;
+}
+
+p {
+    color: #ECEFF1;
+}
+
+.question-link {
+    color: #263238;
+}
+
+.task-title {
+    font-size: 24px;
+    color: #263238;
+}
+
+.head-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+#main-block {
+    width: 700px;
+    background-color: #B0BEC5;
+    color: #263238;
+    -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
